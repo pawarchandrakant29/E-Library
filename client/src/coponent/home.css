@@ -1,0 +1,189 @@
+/* General Reset */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #121212; /* Dark background */
+    color: #e0e0e0; /* Light text */
+  }
+  
+  /* Banner Section */
+  .banner {
+    background: linear-gradient(135deg, #1e1e1e, #2a2a2a); /* Gradient dark background */
+    color: #e0e0e0;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: left;
+  }
+  
+  .banner-text h1 {
+    font-size: 2.5rem;
+    color: #f9a825; /* Vibrant yellow for highlight */
+  }
+  
+  .banner-text p {
+    font-size: 1.2rem;
+    color: #f5f5f5; /* Subtle text color */
+  }
+  
+  /* Search Input */
+  .search-input {
+    background-color: #2a2a2a;
+    color: #e0e0e0;
+    border: 1px solid #424242;
+    border-radius: 5px;
+    padding: 10px;
+  }
+  
+  .search-input::placeholder {
+    color: #757575; /* Muted placeholder */
+  }
+  
+  .search-input:focus {
+    outline: none;
+    border-color: #f9a825;
+    box-shadow: 0 0 5px #f9a825;
+  }
+  
+  /* Add Book Button */
+  .add-book-button {
+    background-color: #f9a825;
+    color: #121212;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    padding: 10px 15px;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .add-book-button:hover {
+    background-color: #ffc107; /* Lighter yellow */
+    color: #121212;
+    box-shadow: 0 4px 8px rgba(255, 193, 7, 0.3);
+  }
+  
+  /* Section Titles */
+  .section-title {
+    font-size: 1.8rem;
+    color: #f9a825;
+    font-weight: bold;
+    border-bottom: 3px solid #424242;
+    display: inline-block;
+    margin-bottom: 20px;
+  }
+  
+  /* Book Cards */
+  .book-card {
+    background-color: #1e1e1e;
+    border: 1px solid #424242;
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .book-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(255, 193, 7, 0.3);
+  }
+  
+  .book-card-img {
+    height: 300px;
+    object-fit: fit;
+    border-bottom: 1px solid #424242;
+  }
+  
+  .book-card .card-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #e0e0e0;
+  }
+  
+  .book-card .card-text {
+    font-size: 1rem;
+    color: #bdbdbd !important;
+  }
+  
+  /* Buttons */
+  button {
+    font-size: 0.9rem;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+  }
+  
+  button.btn-outline-primary {
+    border: 1px solid #f9a825;
+    color: #f9a825;
+  }
+  
+  button.btn-outline-primary:hover {
+    background-color: #f9a825;
+    color: #121212;
+  }
+  
+  button.btn-outline-success {
+    border: 1px solid #81c784;
+    color: #81c784;
+  }
+  
+  button.btn-outline-success:hover {
+    background-color: #81c784;
+    color: #121212;
+  }
+  
+  button.btn-outline-warning {
+    border: 1px solid #ffc107;
+    color: #ffc107;
+  }
+  
+  button.btn-outline-warning:hover {
+    background-color: #ffc107;
+    color: #121212;
+  }
+  
+  button.btn-outline-danger {
+    border: 1px solid #e57373;
+    color: #e57373;
+  }
+  
+  button.btn-outline-danger:hover {
+    background-color: #e57373;
+    color: #121212;
+  }
+  
+  /* Modal */
+  .modal-content {
+    background-color: #2a2a2a;
+    border: none;
+    color: #e0e0e0;
+  }
+  
+  .modal-header {
+    border-bottom: 1px solid #424242;
+  }
+  
+  .modal-footer {
+    border-top: 1px solid #424242;
+  }
+  
+  .modal-body img {
+    border-radius: 10px;
+    margin-bottom: 15px;
+  }
+  
+  .modal-body p {
+    font-size: 1rem;
+    color: #bdbdbd;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .banner {
+      text-align: center;
+    }
+  
+    .banner-text {
+      margin-left: 0;
+      padding-left: 0;
+    }
+  }
+  

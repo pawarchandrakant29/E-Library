@@ -1,0 +1,34 @@
+.add-book-container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #1b1b2f; /* Dark background */
+    color: #eaeaea; /* Light text color */
+    padding: 20px;
+  }
+.add-book-container h2 {
+    color: #ff8c00 !important;
+  }
+  
+  .add-book-button {
+    background-color: #ff8c00; /* Primary button color */
+    border: none;
+    padding: 10px;
+  }
+  
+  .add-book-button:hover {
+    background-color: #ff8c00; /* Darker shade on hover */
+  }
+  
+  .alert-message {
+    margin-bottom: 20px;
+  }
+  .text-info{
+    color: #ff8c00 !important;
+  }
+  ::placeholder{
+    color: #fff !important;
+  }
+  

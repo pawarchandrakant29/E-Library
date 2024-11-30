@@ -1,0 +1,69 @@
+.add-book-container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #1b1b2f; /* Dark background */
+    color: #eaeaea; /* Light text color */
+    padding: 20px;
+  }
+  
+  .add-book-container h2 {
+    color: #ff8c00; /* Highlight for the title */
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .add-book-container .form-control {
+    background-color: #2e2e3e; /* Dark input background */
+    color: #eaeaea; /* Light text color */
+    border: 1px solid #4a4a6a; /* Subtle border */
+    border-radius: 8px;
+  }
+  
+  .add-book-container .form-control:focus {
+    background-color: #3a3a4d;
+    border-color: #ff8c00; /* Highlight border on focus */
+    box-shadow: 0px 0px 8px rgba(255, 140, 0, 0.6);
+  }
+  
+  .add-book-container .btn {
+    background-color: #ff8c00;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    transition: all 0.3s ease-in-out;
+    margin-top: 15px;
+  }
+  
+  .add-book-container .btn:hover {
+    background-color: #ff9c1a;
+    transform: scale(1.05);
+  }
+  
+  .add-book-container .alert-message {
+    border-radius: 8px;
+    margin-top: 15px;
+  }
+  
+  .add-book-container .alert-success {
+    background-color: #2a502d;
+    color: #b5e0a0;
+  }
+  
+  .add-book-container .alert-danger {
+    background-color: #502a2a;
+    color: #e0a0a0;
+  }
+  
+  .add-book-container a {
+    color: #ff8c00;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .add-book-container a:hover {
+    text-decoration: underline;
+  }
+  
